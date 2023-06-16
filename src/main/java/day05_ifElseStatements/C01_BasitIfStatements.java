@@ -51,7 +51,5 @@ public class C01_BasitIfStatements {
             System.out.println("Bu kod hic calismaz");
         }
 
-
-
     }
 }
