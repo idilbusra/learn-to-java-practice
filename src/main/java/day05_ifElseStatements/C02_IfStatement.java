@@ -1,6 +1,5 @@
 package day05_ifElseStatements;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class C02_IfStatement {
