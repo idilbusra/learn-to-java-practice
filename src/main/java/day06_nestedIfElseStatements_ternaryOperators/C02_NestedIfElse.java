@@ -9,7 +9,7 @@ public class C02_NestedIfElse {
         Kadin, 60 yas ve uzeri
         Erkek, 65 yas ve uzeri emekli olabilir
         Cinsiyet ve yasini dikkate alarak "Emekli olabilirsin"
-        veya "Emekkli olmak icin ... yil daha calisman gerekir"yazdirin
+        veya "Emekli olmak icin ... yil daha calisman gerekir"yazdirin
          */
 
         //Once yas veya cinsiyetten birini ana degisken secip ona gore bir degisken olsun
@@ -21,6 +21,29 @@ public class C02_NestedIfElse {
 
         System.out.println("Lutfen yasinizi giriniz");
         int yas=scanner.nextInt();
+
+        if(cinsiyet=='K') { //Burada sadece kadinlar var
+            //buraya kadinlar icin ikinci degisken olan yas'a gore if else olusturalim
+            if (yas<10 || yas>80) {
+                System.out.println("Gecersiz yas");
+            }else if(yas<60){
+                System.out.println("Kadin 60 yasina kadar calismalidir, daha "+ (60-yas)+ "sene calismalidir");
+            }else{
+                System.out.println("Emekli olabilirsin");
+            }
+        }else if(cinsiyet =='E') { //Burada sadece ERKEKLER var
+            //buraya erkekler icin ikinci degisken yas'a gore if-else olusturalim
+            if (yas<10 || yas>80) {
+                System.out.println("Gecersiz yas");
+            }else if(yas<65){
+                System.out.println("Erkek 65 yasina kadar calismalidir, daha "+ (65-yas)+ "sene calismalidir");
+            }else {
+                System.out.println("Emekli olabilirsin");
+            }
+        }else{
+            System.out.println("Cinsiyet girisi hatali");
+        }
+
 
 
 
