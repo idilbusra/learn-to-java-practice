@@ -17,6 +17,5 @@ public class C08_Ternary {
 
 
 
-
     }
 }
