@@ -1,5 +1,7 @@
 package day08_stringManipulations;
 
+import java.util.Scanner;
+
 public class C04_StringManipulationsSoru {
     public static void main(String[] args) {
 
