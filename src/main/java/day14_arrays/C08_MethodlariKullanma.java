@@ -17,5 +17,9 @@ public class C08_MethodlariKullanma {
         int enBuyukSayi = C05_ArraydekiEnBuyukSayiyiBulma.enBuyukSayi(sayiArray);
         System.out.println(enBuyukSayi); // System.out.println(Arrays.toString(sayiArray));
 
+        sayiArray=C10_KullancidanAldigimizDegeriArrayeEkleme.kullaniciArrayElemanEkleme(sayiArray);
+        System.out.println(Arrays.toString(sayiArray)); // [4, 4, 9, 6, 4, 6, 7, 9, 5, 99]
+
+
     }
 }
